@@ -181,13 +181,13 @@ function App() {
                 <Route path='writePhoto' element={<WritePhoto />} />
                 <Route path='editPhoto/:editPhotoId' element={<EditPhoto />} />
               </Route>
-              <Route path='/pass' element={<PassPage />}>
+              {/*<Route path='/pass' element={<PassPage />}>
                 <Route index element={<Pass />} />
                 <Route path='payment' element={<PayCheckout />}>
                   <Route path='success' element={<PaySuccess />} />
                   <Route path='fail' element={<PayFail />} />
                 </Route>
-              </Route>
+              </Route>*/}
               <Route path='/mypage' element={<Mypage selectedImage={selectedImage} handleImageChange={handleImageChange}/>} />
             </Route>
             <Route path='/login' element={<LogIn />} />

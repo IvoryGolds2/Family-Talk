@@ -11,7 +11,7 @@ const DetailedWrapper = styled.div`
   width: 100%;
   align-items: center;
   justify-content: center;
-  border: 2px solid   #f5cc8d;
+  /* border: 2px solid   #f5cc8d; */
   margin-top: 10px;
   border-radius: 10px;
 `;
@@ -34,7 +34,7 @@ function Mypage({selectedImage , handleImageChange}) {
     <div className='show-content'>
       <Myprofile selectedImage={selectedImage} handleImageChange={handleImageChange}  />
       <DetailedWrapper>
-        <UserPass />
+        {/* <UserPass /> */}
         <DetailedProfile openModal={openModal} />
       </DetailedWrapper>
         <div style={{position:'absolute', top:'28%', right: '10%'}}>

@@ -183,7 +183,7 @@ function Layout({selectedImage}) {
           <li><Category to="/members">Members</Category></li>
           <li><Category to="/calendar">Calendar</Category></li>
           <li><Category to="/photo">Photo</Category></li>
-          <li><Category to="/pass"><IoTicketOutline /></Category></li>
+          {/* <li><Category to="/pass"><IoTicketOutline /></Category></li> */}
           <li><Category to="/mypage"><LiaUserCircleSolid  size={28}/></Category></li>
           <li>
             <Button title="Logout" onClick={() => {

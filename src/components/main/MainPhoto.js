@@ -37,7 +37,7 @@ const StyledSwiperSlide = styled(SwiperSlide)`
 // `;
 
 function MainPhoto(props) {
-  const [image, setImage] = useState("https://ifh.cc/g/NAwTpt.jpg");
+  const [image, setImage] = useState("https://i.ibb.co/JsZRdfS/Kakao-Talk-20230714-180635451-02.jpg");
   const [file, setFile] = useState();
   const fileInput = useRef(null);
   
@@ -49,7 +49,7 @@ function MainPhoto(props) {
     if (e.target.files[0]) {
       setFile(e.target.files[0]);
     } else {
-      setImage("https://ifh.cc/g/NAwTpt.jpg");
+      setImage("https://i.ibb.co/JsZRdfS/Kakao-Talk-20230714-180635451-02.jpg");
       return;
     }
     const reader = new FileReader();
@@ -81,10 +81,10 @@ function MainPhoto(props) {
           <img src={image} />
         </StyledSwiperSlide>
         <StyledSwiperSlide>
-          <img src="https://ifh.cc/g/JtPV7K.jpg" />
+          <img src="https://i.ibb.co/WPG1Bbt/Kakao-Talk-20230714-180635451.jpg" />
         </StyledSwiperSlide>
         <StyledSwiperSlide>
-          <img src="https://ifh.cc/g/m85k78.jpg" />
+          <img src="https://i.ibb.co/VCcz6NN/Kakao-Talk-20230714-180635451-01.jpg" />
         </StyledSwiperSlide>
       </StyledSwiper>
     </StyledMainPhoto>
